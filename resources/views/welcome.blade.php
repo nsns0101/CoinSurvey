@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>CoinSurvey</title>
-        {{-- <link rel="stylesheet" href="/css/app.css">
-        <link rel="stylesheet" href="/css/flexslider.css">
+        <link rel="stylesheet" href="/css/app.css">
+
+
+        {{-- <link rel="stylesheet" href="/css/flexslider.css">
         <link rel="stylesheet" href="/css/font-icon.css"> --}}
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -41,5 +43,6 @@
     </head>
     <body>
         <div id="app"></div>
+        <script src="/js/app.js"></script>
     </body>
 </html>

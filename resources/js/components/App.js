@@ -1,24 +1,24 @@
-import React, {useState, useEffect, createContext, useContext} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link, BrowserRouter } from "react-router-dom";
-// import Axios from "axios";
-
-//Layout
-import Header from "../layout/Header";
-// import Footer from "../layout/Footer";
-
-//Routes
-
 
 function App() {
     return (
-        <Header/>
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-md-8">
+                    <div className="card">
+                        <div className="card-header">Example Component</div>
+
+                        <div className="card-body">I'm an example component!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 
 export default App;
 
 if (document.getElementById('app')) {
-    console.log("good");
     ReactDOM.render(<App />, document.getElementById('app'));
 }
