@@ -9,14 +9,14 @@ import Header from "../layout/Header";
 
 //routes
 import Home from "../routes/Home/HomeView.js";
-// import Login from "../routes/Auth/AuthContainer";
+import Login from "../routes/Auth/AuthContainer";
 
 function App() {
     return (
         <BrowserRouter>
             <Header/>
             <Route path="/" exact={true} component={Home}/>
-            {/* <Route path="/Login" component={Login}/>      */}
+            <Route path="/auth" component={Login}/>     
         </BrowserRouter>
     );
 }

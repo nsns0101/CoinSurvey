@@ -19,17 +19,19 @@ export default () => {
 
 								<div className="collapse navbar-collapse navbar-responsive-collapse">
                                     <ul className="nav navbar-nav">
-                                        <img src="/img/logo_CoinServey.png" style={{width:"150px", marginTop:"5px", marginRight:"80px"}}/>
+                                        <Link to="/">
+                                            <img src="/icon/logo_CoinServey_white.png" style={{width:"150px", marginTop:"5px", marginRight:"80px"}}/>
+                                        </Link>
                                         {/* <li><a href="contact.html">Home</a></li> */}
-                                        <li><Link to="/About">About</Link></li>
-                                        <li><Link to="/Service">Service</Link></li>
-                                        <li><Link to="/Market">Market</Link></li>
-                                        <li><Link to="/Question">Question</Link></li>
+                                        <li><Link to="/about">About</Link></li>
+                                        <li><Link to="/service">Service</Link></li>
+                                        <li><Link to="/market">Market</Link></li>
+                                        <li><Link to="/question">Question</Link></li>
 
                                         {/*  */}
                                     </ul>
                                     <ul className="nav navbar-nav" style={{listStyle:"none", float:"right"}}>
-                                        <li><Link to="/Login">Login</Link></li>
+                                        <li><Link to="/auth/login">Login</Link></li>
                                     </ul>
 								</div>
 

@@ -12,7 +12,7 @@ import Service from "./partial/Service";
 
 export default () => {
     return (
-        <body>
+        <div>
             <div className="main_image text-center">
                 {/* 글 */}
                 <p style={{color:"white", fontSize:"88px", paddingTop:"300px", fontWeight:"bold"}}>Starting New Survey!</p>
@@ -26,7 +26,7 @@ export default () => {
                 </div>
             </div>
             <Service/>
-        </body>
+        </div>
 
     )
 }
