@@ -1,19 +1,23 @@
-import React from 'react';
+import React, {useState, useEffect, createContext, useContext} from 'react';
 import ReactDOM from 'react-dom';
+import { Route, Link, BrowserRouter } from "react-router-dom";
+import Axios from 'axios';
+
+//Layout
+import Header from "../layout/Header";
+// import Footer from "../layout/Footer";
+
+//routes
+import Home from "../routes/Home/HomeView.js";
+// import Login from "../routes/Auth/AuthContainer";
 
 function App() {
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">Example Component</div>
-
-                        <div className="card-body">I'm an example component!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <BrowserRouter>
+            <Header/>
+            <Route path="/" exact={true} component={Home}/>
+            {/* <Route path="/Login" component={Login}/>      */}
+        </BrowserRouter>
     );
 }
 
