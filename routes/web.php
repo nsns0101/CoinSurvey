@@ -9,3 +9,6 @@ Route::get('/', function () {
 
 //로그인, 회원가입 페이지
 Route::get('/auth/{page}', 'AuthController@index');
+
+//서비스 페이지
+Route::resource('/service', 'ServiceController');

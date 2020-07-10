@@ -75769,6 +75769,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layout_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../layout/Header */ "./resources/js/layout/Header.js");
 /* harmony import */ var _routes_Home_HomeView_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../routes/Home/HomeView.js */ "./resources/js/routes/Home/HomeView.js");
 /* harmony import */ var _routes_Auth_AuthContainer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../routes/Auth/AuthContainer */ "./resources/js/routes/Auth/AuthContainer.js");
+/* harmony import */ var _routes_Service_ServiceContainer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../routes/Service/ServiceContainer */ "./resources/js/routes/Service/ServiceContainer.js");
 
 
 
@@ -75776,6 +75777,7 @@ __webpack_require__.r(__webpack_exports__);
 
  // import Footer from "../layout/Footer";
 //routes
+
 
 
 
@@ -75788,6 +75790,9 @@ function App() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/auth",
     component: _routes_Auth_AuthContainer__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/service",
+    component: _routes_Service_ServiceContainer__WEBPACK_IMPORTED_MODULE_7__["default"]
   }));
 }
 
@@ -76857,6 +76862,61 @@ __webpack_require__.r(__webpack_exports__);
     className: "col-lg-8 col-md-8 col-sm-8"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg-2 col-md-2 col-sm-2"
+  }));
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Service/ServiceContainer.js":
+/*!*********************************************************!*\
+  !*** ./resources/js/routes/Service/ServiceContainer.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ServiceView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ServiceView */ "./resources/js/routes/Service/ServiceView.js");
+
+ //설문조사 소개
+//설문조사 진행
+//설문조사 생성
+//설문조사 판매로 이동
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ServiceView__WEBPACK_IMPORTED_MODULE_1__["default"], null);
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Service/ServiceView.js":
+/*!****************************************************!*\
+  !*** ./resources/js/routes/Service/ServiceView.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+ // import 
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/csat.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/education.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/employees-and-hr.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/event-planning.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/healthcare.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/market-research.svg"
   }));
 });
 

@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AuthController extends Controller
+class ServiceController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('guest', ['except' => 'destroy']);
-    }
-
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
         return view('welcome');
@@ -18,16 +18,11 @@ class AuthController extends Controller
 
     public function create()
     {
-        //
     }
 
     public function store(Request $request)
     {
-        if (!auth()->attempt($request->only('email', 'password'), $request->has('remember'))) {
-            return response()->json([
-                'status' => false
-            ]);
-        }
+        //
     }
 
     public function show($id)
@@ -47,6 +42,6 @@ class AuthController extends Controller
 
     public function destroy($id)
     {
-        auth()->logout();
+        //
     }
 }
