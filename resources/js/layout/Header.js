@@ -43,6 +43,5 @@ export default () => {
                 </nav>
             </header>
         </div>
-
     )
 }
