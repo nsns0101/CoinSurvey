@@ -39,12 +39,14 @@ export default () => {
                         </div>
 
                         <div className="col-xl-6 col-lg-6 col-md-6">
-                            <div className="card-body">
-                                <div className="survey_see_image text-center"/>
-                                <div className="card-header">
-                                    설문조사 응답하기
+                            <Link to ="/service/response">
+                                <div className="card-body">
+                                    <div className="survey_see_image text-center"/>
+                                    <div className="card-header">
+                                        설문조사 응답하기
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

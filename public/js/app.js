@@ -75790,6 +75790,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _routes_Auth_AuthContainer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../routes/Auth/AuthContainer */ "./resources/js/routes/Auth/AuthContainer.js");
 /* harmony import */ var _routes_Service_ServiceContainer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../routes/Service/ServiceContainer */ "./resources/js/routes/Service/ServiceContainer.js");
 /* harmony import */ var _routes_Create_CreateContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../routes/Create/CreateContainer */ "./resources/js/routes/Create/CreateContainer.js");
+/* harmony import */ var _routes_Response_ResponseContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../routes/Response/ResponseContainer */ "./resources/js/routes/Response/ResponseContainer.js");
 
 
 
@@ -75797,6 +75798,7 @@ __webpack_require__.r(__webpack_exports__);
 
  // import Footer from "../layout/Footer";
 //routes
+
 
 
 
@@ -75818,6 +75820,9 @@ function App() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/service/create",
     component: _routes_Create_CreateContainer__WEBPACK_IMPORTED_MODULE_8__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/service/response",
+    component: _routes_Response_ResponseContainer__WEBPACK_IMPORTED_MODULE_9__["default"]
   }));
 }
 
@@ -77039,6 +77044,24 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/routes/Response/ResponseContainer.js":
+/*!***********************************************************!*\
+  !*** ./resources/js/routes/Response/ResponseContainer.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
+});
+
+/***/ }),
+
 /***/ "./resources/js/routes/Service/Service.css":
 /*!*************************************************!*\
   !*** ./resources/js/routes/Service/Service.css ***!
@@ -77153,13 +77176,15 @@ __webpack_require__.r(__webpack_exports__);
       className: "card-header"
     }, "\uC124\uBB38\uC870\uC0AC \uB9CC\uB4E4\uAE30")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-xl-6 col-lg-6 col-md-6"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+      to: "/service/response"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "card-body"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "survey_see_image text-center"
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "card-header"
-    }, "\uC124\uBB38\uC870\uC0AC \uC751\uB2F5\uD558\uAE30"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    }, "\uC124\uBB38\uC870\uC0AC \uC751\uB2F5\uD558\uAE30")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "col-lg-2 col-md-2 col-sm-2"
     })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "row",

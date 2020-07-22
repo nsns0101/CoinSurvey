@@ -12,6 +12,8 @@ import Home from "../routes/Home/HomeView.js";
 import Login from "../routes/Auth/AuthContainer";
 import Service from "../routes/Service/ServiceContainer";
 import Create from "../routes/Create/CreateContainer";
+import Response from "../routes/Response/ResponseContainer";
+
 function App() {
     return (
         <BrowserRouter>
@@ -19,8 +21,8 @@ function App() {
             <Route path="/" exact={true} component={Home}/>
             <Route path="/auth" component={Login}/>
             <Route path="/service" exact={true} component={Service}/>
-
             <Route path="/service/create" component={Create}/>     
+            <Route path="/service/response" component={Response}/>     
         </BrowserRouter>
     );
 }
