@@ -11,14 +11,16 @@ import Header from "../layout/Header";
 import Home from "../routes/Home/HomeView.js";
 import Login from "../routes/Auth/AuthContainer";
 import Service from "../routes/Service/ServiceContainer";
-
+import Create from "../routes/Create/CreateContainer";
 function App() {
     return (
         <BrowserRouter>
             <Header/>
             <Route path="/" exact={true} component={Home}/>
             <Route path="/auth" component={Login}/>
-            <Route path="/service" component={Service}/>     
+            <Route path="/service" exact={true} component={Service}/>
+
+            <Route path="/service/create" component={Create}/>     
         </BrowserRouter>
     );
 }
