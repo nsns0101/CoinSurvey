@@ -7177,6 +7177,25 @@ exports.push([module.i, "/* input{\r\n    width : 95%;\r\n    font-size : 16px;\
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/routes/Create/Create.css":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/routes/Create/Create.css ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".survey_title {\r\n    width: 100%; \r\n    font-size: 32px;\r\n    font-weight: bold;\r\n    /* border: 1px solid rgb(209, 211, 226);  */\r\n    padding-left: 5px;\r\n    padding:0; \r\n    margin:0;\r\n}\r\n\r\n.survey_description {\r\n    width: 100%; \r\n    font-size: 18px;\r\n    font-weight: 600;\r\n    border: 1px solid rgb(209, 211, 226);\r\n    border-top: 0px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.new_question {\r\n    background-color: #E9EAEC;\r\n    margin-top: 50px; \r\n    height: 120px;\r\n    cursor: pointer;\r\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/routes/Home/Home.css":
 /*!***************************************************************************************************************************!*\
   !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./resources/js/routes/Home/Home.css ***!
@@ -76774,10 +76793,96 @@ var ConfirmForm = Object(styled_components__WEBPACK_IMPORTED_MODULE_1__["default
 
 /***/ }),
 
+/***/ "./resources/js/routes/Create/Create.css":
+/*!***********************************************!*\
+  !*** ./resources/js/routes/Create/Create.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./Create.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/routes/Create/Create.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./resources/js/routes/Create/CreateContainer.js":
 /*!*******************************************************!*\
   !*** ./resources/js/routes/Create/CreateContainer.js ***!
   \*******************************************************/
+/*! exports provided: SurveyCreateContext, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SurveyCreateContext", function() { return SurveyCreateContext; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CreateView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateView */ "./resources/js/routes/Create/CreateView.js");
+
+
+var SurveyCreateContext = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  //새 질문 버튼을 눌렀는지
+  var newQuestionForm = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SurveyCreateContext.Provider, {
+    value: {
+      newQuestionForm: newQuestionForm
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CreateView__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Create/CreateView.js":
+/*!**************************************************!*\
+  !*** ./resources/js/routes/Create/CreateView.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _partial_Create_Navigation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partial/Create_Navigation.js */ "./resources/js/routes/Create/partial/Create_Navigation.js");
+/* harmony import */ var _partial_Create_Question_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./partial/Create_Question.js */ "./resources/js/routes/Create/partial/Create_Question.js");
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Create_Navigation_js__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-9"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Create_Question_js__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Create/partial/Create_Navigation.js":
+/*!*****************************************************************!*\
+  !*** ./resources/js/routes/Create/partial/Create_Navigation.js ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76787,7 +76892,169 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-7",
+    style: {
+      marginTop: "30%"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      fontSize: "24px",
+      fontWeight: "bold"
+    }
+  }, "\uC124\uBB38\uC870\uC0AC \uC0DD\uC131"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center",
+    style: {
+      marginTop: "30px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      border: "solid 1px black"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/survey_create/create.svg",
+    style: {
+      width: "30%",
+      marginTop: "5px"
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      marginTop: "10px"
+    }
+  }, "\uC124\uBB38\uC9C0 \uC0DD\uC131")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6",
+    style: {
+      borderLeft: "solid 1px black"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/survey_create/target.svg",
+    style: {
+      width: "30%",
+      marginTop: "5px"
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      marginTop: "10px"
+    }
+  }, "\uD0C0\uAC9F \uC124\uC815")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center",
+    style: {
+      backgroundColor: "black"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      color: "white",
+      padding: 0,
+      margin: 0
+    }
+  }, "\uC9C8\uBB38 \uCD94\uAC00 \uBA54\uB274\u2193")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uAC1D\uAD00\uC2DD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uC8FC\uAD00\uC2DD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uCCB4\uD06C\uBC15\uC2A4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uB77C\uB514\uC624")));
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Create/partial/Create_Question.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/routes/Create/partial/Create_Question.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CreateContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../CreateContainer */ "./resources/js/routes/Create/CreateContainer.js");
+/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Create.css */ "./resources/js/routes/Create/Create.css");
+/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Create_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_CreateContainer__WEBPACK_IMPORTED_MODULE_1__["SurveyCreateContext"]),
+      newQuestionForm = _useContext.newQuestionForm;
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: "5%"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    style: {
+      backgroundColor: "green"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "survey_title",
+    name: "survey_title",
+    placeholder: "\uC124\uBB38\uC870\uC0AC \uC81C\uBAA9"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2",
+    style: {
+      padding: 0,
+      margin: 0
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    style: {
+      border: "1px solid rgb(209, 211, 226)",
+      backgroundColor: "#F7F7F7",
+      margin: 0,
+      padding: 0
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "survey_description",
+    name: "survey_description",
+    placeholder: "\uC18C \uC81C\uBAA9\uC744 \uC801\uC5B4\uC8FC\uC138\uC694."
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2",
+    style: {
+      padding: 0,
+      margin: 0
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    style: {
+      border: "3px solid black",
+      borderTop: "0px",
+      paddingBottom: "30px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body text-center new_question",
+    onClick: function onClick() {
+      return console.log("good");
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/survey_create/add_question.svg",
+    style: {
+      width: "4%"
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      fontSize: "20px",
+      fontWeight: "bold"
+    }
+  }, " \uC0C8 \uC9C8\uBB38"))))));
 });
 
 /***/ }),
@@ -77144,7 +77411,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  });
 });
 
 /***/ }),

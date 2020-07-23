@@ -1,0 +1,25 @@
+.survey_title {
+    width: 100%; 
+    font-size: 32px;
+    font-weight: bold;
+    /* border: 1px solid rgb(209, 211, 226);  */
+    padding-left: 5px;
+    padding:0; 
+    margin:0;
+}
+
+.survey_description {
+    width: 100%; 
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid rgb(209, 211, 226);
+    border-top: 0px;
+    background-color: #E9EAEC;
+}
+
+.new_question {
+    background-color: #E9EAEC;
+    margin-top: 50px; 
+    height: 120px;
+    cursor: pointer;
+}
