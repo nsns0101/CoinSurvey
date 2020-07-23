@@ -7189,7 +7189,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".main_image {\r\n    width: 100%;\r\n    height: 93vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n#survey_btn{\r\n    font-family: \"Raleway\", sans-serif;\r\n    font-weight: 600;\r\n    font-size: 24px;\r\n    letter-spacing: 1px;\r\n    display: inline-block;\r\n    padding: 9px 35px;\r\n    border-radius: 50px;\r\n    transition: 0.5s;\r\n    margin-top: 40px;\r\n    border: 2px solid green;\r\n    color: #fff;\r\n    background-color: green;\r\n}\r\n\r\n#market_btn{\r\n    font-family: \"Raleway\", sans-serif;\r\n    font-weight: 600;\r\n    font-size: 24px;\r\n    letter-spacing: 1px;\r\n    display: inline-block;\r\n    padding: 9px 35px;\r\n    border-radius: 50px;\r\n    transition: 0.5s;\r\n    margin-top: 40px;\r\n    border: 2px solid red;\r\n    color: #fff;\r\n    background-color: red;\r\n}", ""]);
+exports.push([module.i, ".main_image {\r\n    width: 100%;\r\n    height: 94vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n#survey_btn{\r\n    font-family: \"Raleway\", sans-serif;\r\n    font-weight: 600;\r\n    font-size: 24px;\r\n    letter-spacing: 1px;\r\n    display: inline-block;\r\n    padding: 9px 35px;\r\n    border-radius: 50px;\r\n    transition: 0.5s;\r\n    margin-top: 40px;\r\n    border: 2px solid green;\r\n    color: #fff;\r\n    background-color: green;\r\n}\r\n\r\n#market_btn{\r\n    font-family: \"Raleway\", sans-serif;\r\n    font-weight: 600;\r\n    font-size: 24px;\r\n    letter-spacing: 1px;\r\n    display: inline-block;\r\n    padding: 9px 35px;\r\n    border-radius: 50px;\r\n    transition: 0.5s;\r\n    margin-top: 40px;\r\n    border: 2px solid red;\r\n    color: #fff;\r\n    background-color: red;\r\n}", ""]);
 
 // exports
 
@@ -7208,7 +7208,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".service_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.service_title {\r\n    font-size: 24px;\r\n    font-weight: bold;\r\n}\r\n\r\n.survey_create_image {\r\n    width: 100%;\r\n    height: 45vh;\r\n    background: url(\"/img/survey_create.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.survey_see_image {\r\n    width: 100%;\r\n    height: 45vh;\r\n    background: url(\"/img/survey_see.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}", ""]);
+exports.push([module.i, ".service_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.service_title {\r\n    font-size: 24px;\r\n    font-weight: bold;\r\n}\r\n\r\n.survey_create_image {\r\n    width: 100%;\r\n    height: 45vh;\r\n    border-radius: 10px;\r\n    background: url(\"/img/survey_create.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.survey_see_image {\r\n    width: 100%;\r\n    height: 45vh;\r\n    border-radius: 10px;\r\n    background: url(\"/img/survey_see.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}", ""]);
 
 // exports
 
@@ -76899,7 +76899,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     style: {
       height: "100vh"
@@ -76914,7 +76914,7 @@ __webpack_require__.r(__webpack_exports__);
     style: {
       fontSize: "16px",
       fontWeight: "500",
-      marginTop: "30px"
+      marginTop: "80px"
     }
   }, "Professional Survey"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     style: {
@@ -77039,7 +77039,94 @@ __webpack_require__.r(__webpack_exports__);
     className: "btn btn-primary"
   }, "\uC124\uBB38\uC870\uC0AC \uB9CC\uB4E4\uB7EC \uAC00\uAE30"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg-2 col-md-2 col-sm-2"
-  }));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      marginBottom: "50px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 col-md-2 col-sm-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-8 col-md-8 col-sm-8 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-12 col-md-12 col-sm-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      fontSize: "32px",
+      fontWeight: "bold",
+      marginTop: "30px"
+    }
+  }, "You can create many surveys"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    style: {
+      color: "blue"
+    }
+  }, "\u2500\u2500\u2500\u2500\u2500\u2500")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    style: {
+      marginBottom: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/service_menu/csat.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "service_title"
+  }, "Customer satisfaction"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "main_service_text"
+  }, "Get real-time feedback to improve products,", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "services, and business overall.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    style: {
+      marginBottom: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/service_menu/education.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "service_title"
+  }, "Employee engagement"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "main_service_text"
+  }, "Understand how to retain the best talent and", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " build a healthy company culture.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    style: {
+      marginBottom: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/service_menu/employees-and-hr.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "service_title"
+  }, "Market research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "main_service_text"
+  }, "Keep track of industry and market trends to stay", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ahead of the competition.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    style: {
+      marginBottom: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/service_menu/event-planning.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "service_title"
+  }, "Event planning"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "main_service_text"
+  }, "Gather feedback before, during (in real time!),", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " and after your events.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    style: {
+      marginBottom: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/service_menu/healthcare.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "service_title"
+  }, "Education and schools"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "main_service_text"
+  }, "Get answers to improve programs, processes, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "and academic achievement.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    style: {
+      marginBottom: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/service_menu/market-research.svg"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "service_title"
+  }, "Healthcare"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "main_service_text"
+  }, "Support patient-provider communication ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "by getting feedback.")))));
 });
 
 /***/ }),
@@ -77135,146 +77222,55 @@ __webpack_require__.r(__webpack_exports__);
  // import 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return (
-    /*#__PURE__*/
-    //주요 설문조사 카테고리
-    react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "many_surveys"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "service_image text-center"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      style: {
-        color: "white",
-        fontSize: "88px",
-        paddingTop: "150px",
-        fontWeight: "bold"
-      }
-    }, "Service")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "row",
-      style: {
-        backgroundColor: "white"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-2 col-md-2 col-sm-2"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-8 col-md-8 col-sm-8 text-center"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "row",
-      style: {
-        marginBottom: "50px",
-        marginTop: "50px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-xl-6 col-lg-6 col-md-6"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "/service/create"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "card-body"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "survey_create_image text-center"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "card-header"
-    }, "\uC124\uBB38\uC870\uC0AC \uB9CC\uB4E4\uAE30")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-xl-6 col-lg-6 col-md-6"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "/service/response"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "card-body"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "survey_see_image text-center"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "card-header"
-    }, "\uC124\uBB38\uC870\uC0AC \uC751\uB2F5\uD558\uAE30")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-2 col-md-2 col-sm-2"
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "row",
-      style: {
-        marginBottom: "50px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-2 col-md-2 col-sm-2"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-8 col-md-8 col-sm-8 text-center"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-12 col-md-12 col-sm-12"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      style: {
-        fontSize: "32px",
-        fontWeight: "bold",
-        marginTop: "30px"
-      }
-    }, "You can create many surveys"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-      style: {
-        color: "blue"
-      }
-    }, "\u2500\u2500\u2500\u2500\u2500\u2500")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-4 col-md-4 col-sm-4",
-      style: {
-        marginBottom: "20px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/icon/service_menu/csat.svg"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "service_title"
-    }, "Customer satisfaction"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "main_service_text"
-    }, "Get real-time feedback to improve products,", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "services, and business overall.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-4 col-md-4 col-sm-4",
-      style: {
-        marginBottom: "20px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/icon/service_menu/education.svg"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "service_title"
-    }, "Employee engagement"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "main_service_text"
-    }, "Understand how to retain the best talent and", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " build a healthy company culture.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-4 col-md-4 col-sm-4",
-      style: {
-        marginBottom: "20px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/icon/service_menu/employees-and-hr.svg"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "service_title"
-    }, "Market research"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "main_service_text"
-    }, "Keep track of industry and market trends to stay", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ahead of the competition.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-4 col-md-4 col-sm-4",
-      style: {
-        marginBottom: "20px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/icon/service_menu/event-planning.svg"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "service_title"
-    }, "Event planning"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "main_service_text"
-    }, "Gather feedback before, during (in real time!),", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " and after your events.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-4 col-md-4 col-sm-4",
-      style: {
-        marginBottom: "20px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/icon/service_menu/healthcare.svg"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "service_title"
-    }, "Education and schools"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "main_service_text"
-    }, "Get answers to improve programs, processes, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "and academic achievement.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "col-lg-4 col-md-4 col-sm-4",
-      style: {
-        marginBottom: "20px"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/icon/service_menu/market-research.svg"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "service_title"
-    }, "Healthcare"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      className: "main_service_text"
-    }, "Support patient-provider communication ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "by getting feedback.")))))
-  );
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "many_surveys"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "service_image text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      color: "white",
+      fontSize: "88px",
+      paddingTop: "150px",
+      fontWeight: "bold"
+    }
+  }, "Service")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      backgroundColor: "white"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 col-md-2 col-sm-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-8 col-md-8 col-sm-8 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      marginBottom: "50px",
+      marginTop: "50px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-xl-6 col-lg-6 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/service/create"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "survey_create_image text-center"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header"
+  }, "\uC124\uBB38\uC870\uC0AC \uB9CC\uB4E4\uAE30")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-xl-6 col-lg-6 col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/service/response"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "survey_see_image text-center"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header"
+  }, "\uC124\uBB38\uC870\uC0AC \uC751\uB2F5\uD558\uAE30")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-2 col-md-2 col-sm-2"
+  })));
 });
 
 /***/ }),
