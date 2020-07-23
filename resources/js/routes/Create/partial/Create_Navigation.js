@@ -11,7 +11,7 @@ export default () => {
                     <div className="row" style={{border:"solid 1px black"}}>
                         <div className="col-md-6">
                             <img src="/icon/survey_create/create.svg" style={{width:"30%", marginTop:"5px"}}/>
-                            <p style={{marginTop:"10px"}}>설문지 생성</p>
+                            <p style={{marginTop:"10px"}}>설문 작성</p>
                         </div>
                         <div className="col-md-6" style={{borderLeft:"solid 1px black"}}>
                             <img src="/icon/survey_create/target.svg"  style={{width:"30%", marginTop:"5px"}}/>

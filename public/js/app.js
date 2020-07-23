@@ -7189,7 +7189,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".survey_title {\r\n    width: 100%; \r\n    font-size: 32px;\r\n    font-weight: bold;\r\n    /* border: 1px solid rgb(209, 211, 226);  */\r\n    padding-left: 5px;\r\n    padding:0; \r\n    margin:0;\r\n}\r\n\r\n.survey_description {\r\n    width: 100%; \r\n    font-size: 18px;\r\n    font-weight: 600;\r\n    border: 1px solid rgb(209, 211, 226);\r\n    border-top: 0px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.new_question {\r\n    background-color: #E9EAEC;\r\n    margin-top: 50px; \r\n    height: 120px;\r\n    cursor: pointer;\r\n}", ""]);
+exports.push([module.i, ".survey_title {\r\n    width: 100%; \r\n    font-size: 32px;\r\n    font-weight: bold;\r\n    /* border: 1px solid rgb(209, 211, 226);  */\r\n    padding-left: 5px;\r\n    padding:0; \r\n    margin:0;\r\n}\r\n\r\n.survey_description {\r\n    width: 100%; \r\n    font-size: 18px;\r\n    font-weight: 600;\r\n    border: 1px solid rgb(209, 211, 226);\r\n    border-top: 0px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.writing_question{\r\n    margin-top: 50px;\r\n}\r\n\r\n.new_question {\r\n    background-color: #E9EAEC;\r\n    margin-top: 50px; \r\n    height: 120px;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-primary, .btn-danger {\r\n    border: 0;\r\n    border-radius: 3px;\r\n    padding: 12px 20px 10px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    font-family: 'Montserrat', sans-serif;\r\n    transition: 350ms;\r\n}\r\n\r\n.title_box_icon {\r\n    width: 100px;\r\n    border: 2px solid black;\r\n    border-radius: 40px;\r\n    padding: 12px 20px 10px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    background-color: #21AAFE;\r\n    font-family: 'Montserrat', sans-serif;\r\n    transition: 350ms;\r\n}\r\n\r\n.question_title {    \r\n    width:100%;\r\n    font-size: 20px;\r\n    font-weight: bold;\r\n    padding: 12px 20px 10px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.question_choice{\r\n    margin-left: 10px;\r\n    font-size: 18px;\r\n}", ""]);
 
 // exports
 
@@ -76836,15 +76836,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _CreateView__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateView */ "./resources/js/routes/Create/CreateView.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 var SurveyCreateContext = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   //새 질문 버튼을 눌렀는지
-  var newQuestionForm = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false);
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      newQuestionForm = _useState2[0],
+      setNewQuestionForm = _useState2[1];
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SurveyCreateContext.Provider, {
     value: {
-      newQuestionForm: newQuestionForm
+      newQuestionForm: newQuestionForm,
+      setNewQuestionForm: setNewQuestionForm
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CreateView__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 });
@@ -76928,7 +76945,7 @@ __webpack_require__.r(__webpack_exports__);
     style: {
       marginTop: "10px"
     }
-  }, "\uC124\uBB38\uC9C0 \uC0DD\uC131")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "\uC124\uBB38 \uC791\uC131")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-6",
     style: {
       borderLeft: "solid 1px black"
@@ -76986,8 +77003,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_CreateContainer__WEBPACK_IMPORTED_MODULE_1__["SurveyCreateContext"]),
-      newQuestionForm = _useContext.newQuestionForm;
+      newQuestionForm = _useContext.newQuestionForm,
+      setNewQuestionForm = _useContext.setNewQuestionForm;
 
+  console.log(newQuestionForm);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     style: {
@@ -77039,10 +77058,47 @@ __webpack_require__.r(__webpack_exports__);
     className: "col-md-1"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-10"
+  }, newQuestionForm ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row writing_question"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "title_box_icon"
+  }, "1\uCC28 \uC9C8\uBB38")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "question_title"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio",
+    style: {
+      marginTop: "20px"
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uC790\uC8FC \uADF8\uB807\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uB300\uCCB4\uB85C \uADF8\uB807\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uBCF4\uD1B5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uB300\uCCB4\uB85C \uADF8\uB807\uC9C0 \uC54A\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uADF8\uB807\uC9C0 \uC54A\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body text-center new_question",
     onClick: function onClick() {
-      return console.log("good");
+      return setNewQuestionForm(true);
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/icon/survey_create/add_question.svg",
@@ -77054,7 +77110,23 @@ __webpack_require__.r(__webpack_exports__);
       fontSize: "20px",
       fontWeight: "bold"
     }
-  }, " \uC0C8 \uC9C8\uBB38"))))));
+  }, " \uC67C\uCABD\uC5D0 \uC788\uB294 \uC9C8\uBB38 \uCD94\uAC00 \uBA54\uB274\uB97C \uD1B5\uD574 \uC9C8\uBB38\uC744 \uCD94\uAC00\uD558\uC138\uC694!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-1"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10 text-center",
+    style: {
+      marginTop: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-primary"
+  }, "\uC800\uC7A5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-danger",
+    style: {
+      marginLeft: "10px"
+    }
+  }, "\uCDE8\uC18C")));
 });
 
 /***/ }),
