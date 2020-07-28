@@ -20,7 +20,7 @@ export default () => {
                     </div>
                 </div>
                 <div className="card-header text-center" style={{backgroundColor:"black"}}>
-                    <p style={{color:"white", padding:0, margin:0}}>질문 추가 메뉴↓</p>
+                    <p style={{color:"white", padding:0, margin:0}}>질문 추가메뉴↓</p>
                 </div>
 
                 {/*  */}
