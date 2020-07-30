@@ -7189,7 +7189,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".survey_title {\r\n    width: 100%; \r\n    font-size: 32px;\r\n    font-weight: bold;\r\n    /* border: 1px solid rgb(209, 211, 226);  */\r\n    padding-left: 5px;\r\n    padding:0; \r\n    margin:0;\r\n}\r\n\r\n.survey_description {\r\n    width: 100%; \r\n    font-size: 18px;\r\n    font-weight: 600;\r\n    border: 1px solid rgb(209, 211, 226);\r\n    border-top: 0px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.writing_question{\r\n    margin-top: 50px;\r\n}\r\n\r\n.new_question {\r\n    background-color: #E9EAEC;\r\n    margin-top: 50px; \r\n    height: 120px;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-primary, .btn-danger {\r\n    border: 0;\r\n    border-radius: 3px;\r\n    padding: 12px 20px 10px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    font-family: 'Montserrat', sans-serif;\r\n    transition: 350ms;\r\n}\r\n\r\n.title_box_icon {\r\n    width: 100px;\r\n    border: 2px solid black;\r\n    border-radius: 40px;\r\n    padding: 12px 20px 10px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    background-color: #21AAFE;\r\n    font-family: 'Montserrat', sans-serif;\r\n    transition: 350ms;\r\n}\r\n\r\n.question_title {    \r\n    width:100%;\r\n    font-size: 20px;\r\n    font-weight: bold;\r\n    padding: 12px 20px 10px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.question_choice{\r\n    margin-left: 10px;\r\n    font-size: 18px;\r\n}", ""]);
+exports.push([module.i, ".survey_title {\r\n    width: 100%; \r\n    font-size: 32px;\r\n    font-weight: bold;\r\n    /* border: 1px solid rgb(209, 211, 226);  */\r\n    padding-left: 5px;\r\n    padding:0; \r\n    margin:0;\r\n}\r\n\r\n.survey_description {\r\n    width: 100%; \r\n    font-size: 18px;\r\n    font-weight: 600;\r\n    border: 1px solid rgb(209, 211, 226);\r\n    border-top: 0px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.writing_question{\r\n    margin-top: 50px;\r\n}\r\n\r\n.new_question {\r\n    background-color: #E9EAEC;\r\n    margin-top: 50px; \r\n    height: 120px;\r\n    cursor: pointer;\r\n}\r\n\r\n.btn-primary, .btn-danger {\r\n    border: 0;\r\n    border-radius: 3px;\r\n    padding: 12px 20px 10px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    font-family: 'Montserrat', sans-serif;\r\n    transition: 350ms;\r\n}\r\n\r\n.title_box_icon {\r\n    text-align: center;\r\n    width: 120px;\r\n    border: 2px solid black;\r\n    border-radius: 40px;\r\n    padding: 12px 20px 10px;\r\n    font-weight: 700;\r\n    text-transform: uppercase;\r\n    color: #fff;\r\n    background-color: #21AAFE;\r\n    font-family: 'Montserrat', sans-serif;\r\n    transition: 350ms;\r\n}\r\n\r\n.question_title {    \r\n    width:100%;\r\n    font-size: 20px;\r\n    font-weight: bold;\r\n    padding: 12px 20px 10px;\r\n    background-color: #E9EAEC;\r\n}\r\n\r\n.question_choice{\r\n    margin-left: 10px;\r\n    font-size: 18px;\r\n}", ""]);
 
 // exports
 
@@ -76971,7 +76971,7 @@ __webpack_require__.r(__webpack_exports__);
       padding: 0,
       margin: 0
     }
-  }, "\uC9C8\uBB38 \uCD94\uAC00 \uBA54\uB274\u2193")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "\uC9C8\uBB38 \uCD94\uAC00\uBA54\uB274\u2193")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header text-center"
   }, "\uAC1D\uAD00\uC2DD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header text-center"
@@ -77071,7 +77071,10 @@ __webpack_require__.r(__webpack_exports__);
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-2"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-10"
+    className: "col-md-10",
+    style: {
+      marginBottom: "40px"
+    }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "radio",
     style: {
@@ -77095,7 +77098,48 @@ __webpack_require__.r(__webpack_exports__);
     type: "radio"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "question_choice"
-  }, "\uADF8\uB807\uC9C0 \uC54A\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "\uADF8\uB807\uC9C0 \uC54A\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "title_box_icon"
+  }, "2\uCC28 \uC9C8\uBB38")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "question_title"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    style: {
+      marginBottom: "40px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio",
+    style: {
+      marginTop: "20px"
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uC790\uC8FC \uADF8\uB807\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uB300\uCCB4\uB85C \uADF8\uB807\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uBCF4\uD1B5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uB300\uCCB4\uB85C \uADF8\uB807\uC9C0 \uC54A\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "radio"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "question_choice"
+  }, "\uADF8\uB807\uC9C0 \uC54A\uB2E4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))) // 
+  :
+  /*#__PURE__*/
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body text-center new_question",
     onClick: function onClick() {
       return setNewQuestionForm(true);

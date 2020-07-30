@@ -43,7 +43,7 @@ export default () => {
                                 </div>
                                 {/* 객관식 */}
                                 <div className="col-md-2"/>
-                                <div className="col-md-10">
+                                <div className="col-md-10" style={{marginBottom:"40px"}}>
                                     <input type="radio" style={{marginTop:"20px"}}/> 
                                         <span className="question_choice">자주 그렇다</span><br/>
                                     <input type="radio"/> 
@@ -55,7 +55,32 @@ export default () => {
                                     <input type="radio"/> 
                                         <span className="question_choice">그렇지 않다</span><br/>
                                 </div>
+                                 {/* 질문 제목*/}
+                                 <div className="col-md-2">
+                                    <div className="title_box_icon">2차 질문</div>
+                                </div>
+                                <div className="col-md-10">
+                                    <input className="question_title"></input>
+                                </div>
+                                {/* 객관식 */}
+                                <div className="col-md-2"/>
+                                <div className="col-md-10" style={{marginBottom:"40px"}}>
+                                    <input type="radio" style={{marginTop:"20px"}}/> 
+                                        <span className="question_choice">자주 그렇다</span><br/>
+                                    <input type="radio"/> 
+                                        <span className="question_choice">대체로 그렇다</span><br/>
+                                    <input type="radio"/> 
+                                        <span className="question_choice">보통</span><br/>
+                                    <input type="radio"/> 
+                                        <span className="question_choice">대체로 그렇지 않다</span><br/>
+                                    <input type="radio"/> 
+                                        <span className="question_choice">그렇지 않다</span><br/>
+                                </div>
+                                {/*  */}
+                                
                             </div>
+                            // 
+                            
                         ) : (
                             <div className="card-body text-center new_question" onClick={()=> setNewQuestionForm(true)}>
                                 <br/>
