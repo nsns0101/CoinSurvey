@@ -26,7 +26,8 @@
 	<link rel="stylesheet" href="/css/colorbox.css">
 	<!-- FontIcon -->
 	
-	
+	{{-- 자체 css --}}
+	<link rel="stylesheet" href="/css/ljy.css">
 	
        <!-- initialize jQuery Library -->
 		<script type="text/javascript" src="/js/jquery.js"></script>
