@@ -76855,13 +76855,16 @@ var SurveyCreateContext = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__
   //새 질문 버튼을 눌렀는지
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
       _useState2 = _slicedToArray(_useState, 2),
-      newQuestionForm = _useState2[0],
-      setNewQuestionForm = _useState2[1];
+      newSurveyForm = _useState2[0],
+      setNewSurveyForm = _useState2[1]; //타켓설정 페이지인지 설문 작성 페이지인지
 
+
+  var action = location.pathname.split('/')[3];
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SurveyCreateContext.Provider, {
     value: {
-      newQuestionForm: newQuestionForm,
-      setNewQuestionForm: setNewQuestionForm
+      newSurveyForm: newSurveyForm,
+      setNewSurveyForm: setNewSurveyForm,
+      action: action
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CreateView__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 });
@@ -76879,115 +76882,34 @@ var SurveyCreateContext = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _partial_Create_Navigation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./partial/Create_Navigation.js */ "./resources/js/routes/Create/partial/Create_Navigation.js");
-/* harmony import */ var _partial_Create_Question_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./partial/Create_Question.js */ "./resources/js/routes/Create/partial/Create_Question.js");
+/* harmony import */ var _CreateContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateContainer */ "./resources/js/routes/Create/CreateContainer.js");
+/* harmony import */ var _partial_Navigation_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./partial/Navigation.js */ "./resources/js/routes/Create/partial/Navigation.js");
+/* harmony import */ var _partial_Create_survey_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./partial/Create_survey.js */ "./resources/js/routes/Create/partial/Create_survey.js");
+/* harmony import */ var _partial_Create_target_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./partial/Create_target.js */ "./resources/js/routes/Create/partial/Create_target.js");
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_CreateContainer__WEBPACK_IMPORTED_MODULE_1__["SurveyCreateContext"]),
+      action = _useContext.action;
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Create_Navigation_js__WEBPACK_IMPORTED_MODULE_1__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Navigation_js__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-9"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Create_Question_js__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
+  }, action == "survey" ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Create_survey_js__WEBPACK_IMPORTED_MODULE_3__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Create_target_js__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
 });
 
 /***/ }),
 
-/***/ "./resources/js/routes/Create/partial/Create_Navigation.js":
-/*!*****************************************************************!*\
-  !*** ./resources/js/routes/Create/partial/Create_Navigation.js ***!
-  \*****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-7",
-    style: {
-      marginTop: "30%"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    style: {
-      fontSize: "24px",
-      fontWeight: "bold"
-    }
-  }, "\uC124\uBB38\uC870\uC0AC \uC0DD\uC131"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header text-center",
-    style: {
-      marginTop: "30px"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
-    style: {
-      border: "solid 1px black"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/icon/survey_create/create.svg",
-    style: {
-      width: "30%",
-      marginTop: "5px"
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    style: {
-      marginTop: "10px"
-    }
-  }, "\uC124\uBB38 \uC791\uC131")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-md-6",
-    style: {
-      borderLeft: "solid 1px black"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/icon/survey_create/target.svg",
-    style: {
-      width: "30%",
-      marginTop: "5px"
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    style: {
-      marginTop: "10px"
-    }
-  }, "\uD0C0\uAC9F \uC124\uC815")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header text-center",
-    style: {
-      backgroundColor: "black"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    style: {
-      color: "white",
-      padding: 0,
-      margin: 0
-    }
-  }, "\uC9C8\uBB38 \uCD94\uAC00\uBA54\uB274\u2193")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header text-center"
-  }, "\uAC1D\uAD00\uC2DD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header text-center"
-  }, "\uC8FC\uAD00\uC2DD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header text-center"
-  }, "\uCCB4\uD06C\uBC15\uC2A4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header text-center"
-  }, "\uB77C\uB514\uC624")));
-});
-
-/***/ }),
-
-/***/ "./resources/js/routes/Create/partial/Create_Question.js":
-/*!***************************************************************!*\
-  !*** ./resources/js/routes/Create/partial/Create_Question.js ***!
-  \***************************************************************/
+/***/ "./resources/js/routes/Create/partial/Create_survey.js":
+/*!*************************************************************!*\
+  !*** ./resources/js/routes/Create/partial/Create_survey.js ***!
+  \*************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76996,17 +76918,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _CreateContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../CreateContainer */ "./resources/js/routes/Create/CreateContainer.js");
-/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Create.css */ "./resources/js/routes/Create/Create.css");
-/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Create_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Create.css */ "./resources/js/routes/Create/Create.css");
+/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Create_css__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_CreateContainer__WEBPACK_IMPORTED_MODULE_1__["SurveyCreateContext"]),
-      newQuestionForm = _useContext.newQuestionForm,
-      setNewQuestionForm = _useContext.setNewQuestionForm;
+      newSurveyForm = _useContext.newSurveyForm,
+      setNewSurveyForm = _useContext.setNewSurveyForm;
 
-  console.log(newQuestionForm);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
     style: {
@@ -77058,7 +76981,7 @@ __webpack_require__.r(__webpack_exports__);
     className: "col-md-1"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-10"
-  }, newQuestionForm ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, newSurveyForm ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row writing_question"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-md-2"
@@ -77142,7 +77065,7 @@ __webpack_require__.r(__webpack_exports__);
   react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body text-center new_question",
     onClick: function onClick() {
-      return setNewQuestionForm(true);
+      return setNewSurveyForm(true);
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/icon/survey_create/add_question.svg",
@@ -77163,14 +77086,191 @@ __webpack_require__.r(__webpack_exports__);
     style: {
       marginTop: "20px"
     }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/service/create/target"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-primary"
-  }, "\uC800\uC7A5"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+  }, "\uB2E4\uC74C")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "btn btn-danger",
     style: {
       marginLeft: "10px"
     }
   }, "\uCDE8\uC18C")));
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Create/partial/Create_target.js":
+/*!*************************************************************!*\
+  !*** ./resources/js/routes/Create/partial/Create_target.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CreateContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../CreateContainer */ "./resources/js/routes/Create/CreateContainer.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Create.css */ "./resources/js/routes/Create/Create.css");
+/* harmony import */ var _Create_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Create_css__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_CreateContainer__WEBPACK_IMPORTED_MODULE_1__["SurveyCreateContext"]),
+      newSurveyForm = _useContext.newSurveyForm,
+      setNewSurveyForm = _useContext.setNewSurveyForm;
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: "5%"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    style: {
+      backgroundColor: "green"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "survey_title",
+    name: "survey_title",
+    placeholder: "\uC124\uBB38\uC870\uC0AC \uC81C\uBAA9"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2",
+    style: {
+      padding: 0,
+      margin: 0
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10",
+    style: {
+      border: "1px solid rgb(209, 211, 226)",
+      backgroundColor: "#F7F7F7",
+      margin: 0,
+      padding: 0
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "survey_description",
+    name: "survey_description",
+    placeholder: "\uC18C \uC81C\uBAA9\uC744 \uC801\uC5B4\uC8FC\uC138\uC694."
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2",
+    style: {
+      padding: 0,
+      margin: 0
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-10 text-center",
+    style: {
+      marginTop: "20px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/service/create/target"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-primary"
+  }, "\uC800\uC7A5")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn btn-danger",
+    style: {
+      marginLeft: "10px"
+    }
+  }, "\uCDE8\uC18C")));
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Create/partial/Navigation.js":
+/*!**********************************************************!*\
+  !*** ./resources/js/routes/Create/partial/Navigation.js ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-7",
+    style: {
+      marginTop: "30%"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      fontSize: "24px",
+      fontWeight: "bold"
+    }
+  }, "\uC124\uBB38\uC870\uC0AC \uC0DD\uC131"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center",
+    style: {
+      marginTop: "30px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      border: "solid 1px black"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/service/create/survey"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/survey_create/create.svg",
+    style: {
+      width: "30%",
+      marginTop: "5px"
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      marginTop: "10px"
+    }
+  }, "\uC124\uBB38 \uC791\uC131"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-6",
+    style: {
+      borderLeft: "solid 1px black"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/service/create/target"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/icon/survey_create/target.svg",
+    style: {
+      width: "30%",
+      marginTop: "5px"
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      marginTop: "10px"
+    }
+  }, "\uD0C0\uAC9F \uC124\uC815"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center",
+    style: {
+      backgroundColor: "black"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      color: "white",
+      padding: 0,
+      margin: 0
+    }
+  }, "\uC9C8\uBB38 \uCD94\uAC00\uBA54\uB274\u2193")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uAC1D\uAD00\uC2DD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uC8FC\uAD00\uC2DD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uCCB4\uD06C\uBC15\uC2A4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header text-center"
+  }, "\uB77C\uB514\uC624")));
 });
 
 /***/ }),
@@ -77636,7 +77736,7 @@ __webpack_require__.r(__webpack_exports__);
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-xl-6 col-lg-6 col-md-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-    to: "/service/create"
+    to: "/service/create/survey"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

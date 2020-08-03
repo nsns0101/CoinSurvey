@@ -1,9 +1,15 @@
 import React, {useContext} from "react";
 import { SurveyCreateContext } from "../CreateContainer";
+import { Link } from "react-router-dom";
+
 import "../Create.css";
+
 export default () => {
-    const { newQuestionForm, setNewQuestionForm } = useContext(SurveyCreateContext);
-    console.log(newQuestionForm);
+    const { 
+        newSurveyForm, 
+        setNewSurveyForm,
+    } = useContext(SurveyCreateContext);
+    
     return (
         <div className="row" style={{marginTop:"5%"}}>
             {/* 제목 */}
@@ -32,7 +38,7 @@ export default () => {
                 <div className="row">
                     <div className="col-md-1"/>
                     <div className="col-md-10">
-                        {newQuestionForm ? (
+                        {newSurveyForm ? (
                             <div className="row writing_question">
                                 {/* 질문 제목*/}
                                 <div className="col-md-2">
@@ -82,7 +88,7 @@ export default () => {
                             // 
                             
                         ) : (
-                            <div className="card-body text-center new_question" onClick={()=> setNewQuestionForm(true)}>
+                            <div className="card-body text-center new_question" onClick={()=> setNewSurveyForm(true)}>
                                 <br/>
                                 <img src="/icon/survey_create/add_question.svg" style={{width:"4%"}}/>
                                 <span style={{fontSize:"20px", fontWeight:"bold"}}> 왼쪽에 있는 질문 추가 메뉴를 통해 질문을 추가하세요!</span>
@@ -94,9 +100,11 @@ export default () => {
             </div>
             <div className="col-md-2"/>
 
-            {/* 저장 버튼 */}
+            {/* 다음 버튼 */}
             <div className="col-md-10 text-center" style={{marginTop:"20px"}}>
-                <button className="btn btn-primary">저장</button>
+                <Link to="/service/create/target">
+                    <button className="btn btn-primary">다음</button>
+                </Link>
                 <button className="btn btn-danger" style={{marginLeft:"10px"}}>취소</button>
             </div>
         </div>

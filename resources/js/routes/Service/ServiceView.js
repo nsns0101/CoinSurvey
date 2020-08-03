@@ -25,7 +25,7 @@ export default () => {
                             <h3 style={{color: "green"}}>──────</h3>
                         </div> */}
                         <div className="col-xl-6 col-lg-6 col-md-6">
-                            <Link to ="/service/create">
+                            <Link to ="/service/create/survey">
                                 <div className="card-body">
                                     <div className="survey_create_image text-center"/>
                                     <div className="card-header">

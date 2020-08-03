@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 export default () => {
     return (
@@ -10,12 +11,17 @@ export default () => {
                 <div className="card-header text-center" style={{marginTop:"30px"}}>
                     <div className="row" style={{border:"solid 1px black"}}>
                         <div className="col-md-6">
-                            <img src="/icon/survey_create/create.svg" style={{width:"30%", marginTop:"5px"}}/>
-                            <p style={{marginTop:"10px"}}>설문 작성</p>
+                            <Link to="/service/create/survey">
+                                <img src="/icon/survey_create/create.svg" style={{width:"30%", marginTop:"5px"}}/>
+                                <p style={{marginTop:"10px"}}>설문 작성</p>
+                            </Link>
                         </div>
+                        
                         <div className="col-md-6" style={{borderLeft:"solid 1px black"}}>
-                            <img src="/icon/survey_create/target.svg"  style={{width:"30%", marginTop:"5px"}}/>
-                            <p style={{marginTop:"10px"}}>타겟 설정</p>
+                            <Link to="/service/create/target">
+                                <img src="/icon/survey_create/target.svg"  style={{width:"30%", marginTop:"5px"}}/>
+                                <p style={{marginTop:"10px"}}>타겟 설정</p>
+                            </Link>
                         </div>
                     </div>
                 </div>
