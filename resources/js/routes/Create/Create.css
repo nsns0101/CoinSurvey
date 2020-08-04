@@ -72,3 +72,10 @@
     font-size: 18px;
 }
 
+.react-datepicker-wrapper {
+    float:right;
+}
+.required_option input {
+    padding-right: 20px;
+    text-align: right;
+}

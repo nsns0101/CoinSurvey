@@ -13,6 +13,7 @@ import Login from "../routes/Auth/AuthContainer";
 import Service from "../routes/Service/ServiceContainer";
 import Create from "../routes/Create/CreateContainer";
 import Response from "../routes/Response/ResponseContainer";
+import Market from "../routes/Market/MarketContainer";
 
 function App() {
     return (
@@ -22,7 +23,8 @@ function App() {
             <Route path="/auth" component={Login}/>
             <Route path="/service" exact={true} component={Service}/>
             <Route path="/service/create" component={Create}/>     
-            <Route path="/service/response" component={Response}/>     
+            <Route path="/service/response" component={Response}/> 
+            <Route path="/market" component={Market}/>   
         </BrowserRouter>
     );
 }

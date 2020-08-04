@@ -19,9 +19,11 @@ export default () => {
     const [age, SetAge] = useState("무관");
     const [job, SetJob] = useState("무관");
 
-    console.log(gender);
-    console.log(age);
-    console.log(job);
+    //필수 옵션
+    const [max_res, setMax_res] = useState("");
+    const [closing_date, setClosing_date] = useState("");
+    const [res_coin, setRes_coin] = useState("");
+
     return (
         <SurveyCreateContext.Provider value={{
             newSurveyForm,
@@ -36,6 +38,12 @@ export default () => {
             SetAge,
             job,
             SetJob,
+            max_res,
+            setMax_res,
+            closing_date,
+            setClosing_date,
+            res_coin,
+            setRes_coin,
         }}>
             <CreateView/>
         </SurveyCreateContext.Provider>

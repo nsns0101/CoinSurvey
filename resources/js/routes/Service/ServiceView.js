@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default () => {
     return(
-        <div className="many_surveys">
+        <div>
             <div className="service_image text-center">
                 <p style={{color:"white", fontSize:"88px", paddingTop:"150px", fontWeight:"bold"}}>
                     Service

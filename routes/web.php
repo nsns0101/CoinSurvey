@@ -14,3 +14,6 @@ Route::get('/auth/{page}', 'AuthController@index');
 Route::resource('/service', 'ServiceController');
 Route::get('/service/create/{form}', 'SurveyCreateController@index');
 Route::resource('/service/response', 'ResponseController');
+
+//마켓 페이지
+Route::resource('/market', 'MarketController');
