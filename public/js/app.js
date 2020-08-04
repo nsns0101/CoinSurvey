@@ -7659,7 +7659,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".market_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}", ""]);
+exports.push([module.i, ".market_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.market_survey_image {\r\n    width: 100%;\r\n    height: 20vh;\r\n    border-radius: 10px;\r\n    background: url(\"/img/survey_create.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.progress > .progress-type {\r\n\tposition: absolute;\r\n\tleft: 0px;\r\n\tfont-weight: 800;\r\n\tpadding: 3px 30px 2px 10px;\r\n\tcolor: rgb(255, 255, 255);\r\n\tbackground-color: black;\r\n}\r\n.progress > .progress-completed {\r\n\tposition: absolute;\r\n\tright: 0px;\r\n\tfont-weight: 800;\r\n\tpadding: 3px 10px 2px;\r\n}\r\n\r\n.progress {\r\n    overflow: hidden;\r\n    height: 20px;\r\n    margin-bottom: 20px;\r\n    background-color: #f5f5f5;\r\n    border-radius: 4px;\r\n    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);\r\n}\r\n\r\n/* .progress {\r\n    position: relative;\r\n    height: 25px;\r\n} */\r\n\r\n/* .progress-bar {\r\n    float: left;\r\n    width: 0;\r\n    height: 100%;\r\n    font-size: 12px;\r\n    line-height: 20px;\r\n    color: #fff;\r\n    text-align: center;\r\n    background-color: #428bca;\r\n    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);\r\n    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);\r\n    -webkit-transition: width .6s ease;\r\n    transition: width .6s ease;\r\n} */\r\n", ""]);
 
 // exports
 
@@ -110489,6 +110489,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _MarketContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MarketContainer */ "./resources/js/routes/Market/MarketContainer.js");
 /* harmony import */ var _Market_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Market.css */ "./resources/js/routes/Market/Market.css");
 /* harmony import */ var _Market_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Market_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _partial_Market_home__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./partial/Market_home */ "./resources/js/routes/Market/partial/Market_home.js");
+/* harmony import */ var _partial_Market_detail__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./partial/Market_detail */ "./resources/js/routes/Market/partial/Market_detail.js");
+
+
 
 
 
@@ -110497,8 +110501,86 @@ __webpack_require__.r(__webpack_exports__);
   var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_MarketContainer__WEBPACK_IMPORTED_MODULE_2__["MarketContext"]),
       action = _useContext.action;
 
+  return action ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Market_detail__WEBPACK_IMPORTED_MODULE_5__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Market_home__WEBPACK_IMPORTED_MODULE_4__["default"], null);
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Market/partial/Market_detail.js":
+/*!*************************************************************!*\
+  !*** ./resources/js/routes/Market/partial/Market_detail.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _MarketContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../MarketContainer */ "./resources/js/routes/Market/MarketContainer.js");
+/* harmony import */ var _Market_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Market.css */ "./resources/js/routes/Market/Market.css");
+/* harmony import */ var _Market_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Market_css__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  // const { 
+  //     action
+  // } = useContext(MarketContext);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "text-success"
+  }, "A Demo of Porgress bar"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress-bar w-50",
+    role: "progressbar",
+    "aria-valuenow": "75",
+    "aria-valuemin": "0",
+    "aria-valuemax": "100"
+  }, "50%")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    className: "text-success"
+  }, "By style attribute"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress-bar",
+    style: {
+      width: "64%"
+    },
+    role: "progressbar"
+  }, "64%")));
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Market/partial/Market_home.js":
+/*!***********************************************************!*\
+  !*** ./resources/js/routes/Market/partial/Market_home.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _MarketContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../MarketContainer */ "./resources/js/routes/Market/MarketContainer.js");
+/* harmony import */ var _Market_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Market.css */ "./resources/js/routes/Market/Market.css");
+/* harmony import */ var _Market_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Market_css__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  // const { 
+  //     action
+  // } = useContext(MarketContext);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "market_image text-center"
+    className: "market_image"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     style: {
       color: "white",
@@ -110506,7 +110588,46 @@ __webpack_require__.r(__webpack_exports__);
       paddingTop: "150px",
       fontWeight: "bold"
     }
-  }, "Market")));
+  }, "Market")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row justify-content-around",
+    style: {
+      backgroundColor: "white"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-10 col-md-10 col-sm-10"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      marginBottom: "50px",
+      marginTop: "50px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-xl-4 col-lg-4 col-md-4",
+    style: {
+      boxShadow: "6px 6px 6px 6px rgba(0, 0, 0, .2)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/service/create/survey"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "market_survey_image"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\uB300\uAD6C\uAD11\uC5ED\uC2DC \uC601\uC9C4 \uC804\uBB38 \uACE0\uB4F1\uD559\uAD50\uB97C \uB300\uC0C1\uC73C\uB85C\uD55C \uCCAD\uC18C\uB144 \uD559\uAD50\uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    className: "text-success"
+  }, "\uC124\uBB38\uC870\uC0AC \uC9C4\uCC99\uB3C4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress",
+    style: {
+      backgroundColor: "black"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress-bar",
+    style: {
+      width: "64%"
+    },
+    role: "progressbar"
+  }, "64%"))))))))));
 });
 
 /***/ }),
@@ -110614,13 +110735,11 @@ __webpack_require__.r(__webpack_exports__);
       fontWeight: "bold"
     }
   }, "Service")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
+    className: "row justify-content-around",
     style: {
       backgroundColor: "white"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 col-md-2 col-sm-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg-8 col-md-8 col-sm-8 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row",
@@ -110648,9 +110767,7 @@ __webpack_require__.r(__webpack_exports__);
     className: "survey_see_image text-center"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-header"
-  }, "\uC124\uBB38\uC870\uC0AC \uC751\uB2F5\uD558\uAE30")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-lg-2 col-md-2 col-sm-2"
-  })));
+  }, "\uC124\uBB38\uC870\uC0AC \uC751\uB2F5\uD558\uAE30"))))))));
 });
 
 /***/ }),

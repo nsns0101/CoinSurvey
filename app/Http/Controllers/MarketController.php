@@ -27,7 +27,7 @@ class MarketController extends Controller
 
     public function show($id)
     {
-        //
+        return view('welcome');
     }
 
     public function edit($id)

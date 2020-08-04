@@ -3,19 +3,17 @@ import { Link } from "react-router-dom";
 import { MarketContext } from "./MarketContainer";
 import "./Market.css";
 
+import Market_home from "./partial/Market_home";
+import Market_detail from "./partial/Market_detail";
+
 export default () => {
     const { 
         action
     } = useContext(MarketContext);
 
-    return (
-        <div>
-            <div className="market_image text-center">
-                <p style={{color:"white", fontSize:"88px", paddingTop:"150px", fontWeight:"bold"}}>
-                    Market
-                </p>
-
-            </div>
-        </div>
+    return action ? (
+            <Market_detail/>
+        ) : (
+            <Market_home/>
     )
 }
