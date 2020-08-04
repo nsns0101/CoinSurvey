@@ -7659,7 +7659,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".market_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.market_survey_image {\r\n    width: 100%;\r\n    height: 20vh;\r\n    border-radius: 10px;\r\n    background: url(\"/img/survey_create.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.progress > .progress-type {\r\n\tposition: absolute;\r\n\tleft: 0px;\r\n\tfont-weight: 800;\r\n\tpadding: 3px 30px 2px 10px;\r\n\tcolor: rgb(255, 255, 255);\r\n\tbackground-color: black;\r\n}\r\n.progress > .progress-completed {\r\n\tposition: absolute;\r\n\tright: 0px;\r\n\tfont-weight: 800;\r\n\tpadding: 3px 10px 2px;\r\n}\r\n\r\n.progress {\r\n    overflow: hidden;\r\n    height: 20px;\r\n    margin-bottom: 20px;\r\n    background-color: #f5f5f5;\r\n    border-radius: 4px;\r\n    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);\r\n}\r\n\r\n/* .progress {\r\n    position: relative;\r\n    height: 25px;\r\n} */\r\n\r\n/* .progress-bar {\r\n    float: left;\r\n    width: 0;\r\n    height: 100%;\r\n    font-size: 12px;\r\n    line-height: 20px;\r\n    color: #fff;\r\n    text-align: center;\r\n    background-color: #428bca;\r\n    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);\r\n    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);\r\n    -webkit-transition: width .6s ease;\r\n    transition: width .6s ease;\r\n} */\r\n", ""]);
+exports.push([module.i, ".market_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/header-bg.jpg\") center center no-repeat;\r\n    text-align: center;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.market_survey_image {\r\n    width: 100%;\r\n    height: 20vh;\r\n    border-radius: 10px;\r\n    background: url(\"/img/survey_create.jpg\") center center no-repeat;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n}\r\n\r\n.progress > .progress-type {\r\n\tposition: absolute;\r\n\tleft: 0px;\r\n\tfont-weight: 800;\r\n\tpadding: 3px 30px 2px 10px;\r\n\tcolor: rgb(255, 255, 255);\r\n\tbackground-color: black;\r\n}\r\n.progress > .progress-completed {\r\n\tposition: absolute;\r\n\tright: 0px;\r\n\tfont-weight: 800;\r\n\tpadding: 3px 10px 2px;\r\n}\r\n\r\n.progress {\r\n    overflow: hidden;\r\n    height: 20px;\r\n    margin-bottom: 20px;\r\n    background-color: #f5f5f5;\r\n    border-radius: 4px;\r\n    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);\r\n}\r\n\r\n/* .progress {\r\n    position: relative;\r\n    height: 25px;\r\n} */\r\n\r\n/* .progress-bar {\r\n    float: left;\r\n    width: 0;\r\n    height: 100%;\r\n    font-size: 12px;\r\n    line-height: 20px;\r\n    color: #fff;\r\n    text-align: center;\r\n    background-color: #428bca;\r\n    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);\r\n    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);\r\n    -webkit-transition: width .6s ease;\r\n    transition: width .6s ease;\r\n} */\r\n", ""]);
 
 // exports
 
@@ -110589,37 +110589,74 @@ __webpack_require__.r(__webpack_exports__);
       fontWeight: "bold"
     }
   }, "Market")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-around",
-    style: {
-      backgroundColor: "white"
-    }
+    className: "row justify-content-around"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-8 col-md-8 col-sm-8",
+    style: {
+      marginTop: "10px",
+      marginBottom: "10px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    style: {
+      fontSize: "24px"
+    }
+  }, "\uCD1D ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      color: "red"
+    }
+  }, "6"), "\uAC1C\uC758 \uC124\uBB38\uC870\uC0AC\uAC00 \uD310\uB9E4\uB418\uACE0 \uC788\uC2B5\uB2C8\uB2E4."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row justify-content-around"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-1 col-md-1 col-sm-1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col-lg-10 col-md-10 col-sm-10"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row",
-    style: {
-      marginBottom: "50px",
-      marginTop: "50px"
-    }
+    className: "row justify-content-around"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-xl-4 col-lg-4 col-md-4",
+    className: "col-xl-3 col-lg-3 col-md-3",
     style: {
+      borderRadius: "20px",
       boxShadow: "6px 6px 6px 6px rgba(0, 0, 0, .2)"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/service/create/survey"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "card-body"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "market_survey_image"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "card-header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\uB300\uAD6C\uAD11\uC5ED\uC2DC \uC601\uC9C4 \uC804\uBB38 \uACE0\uB4F1\uD559\uAD50\uB97C \uB300\uC0C1\uC73C\uB85C\uD55C \uCCAD\uC18C\uB144 \uD559\uAD50\uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
-    className: "text-success"
-  }, "\uC124\uBB38\uC870\uC0AC \uC9C4\uCC99\uB3C4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header",
+    style: {
+      margin: 0,
+      padding: 0
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      margin: 0,
+      padding: 0,
+      marginTop: "15px",
+      fontSize: "20px",
+      fontWeight: "bold",
+      color: "black",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap"
+    }
+  }, "\uC601\uC9C4 \uACE0\uB4F1\uD559\uAD50 \uD559\uAD50\uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      fontSize: "14px",
+      fontWeight: "bold",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap"
+    }
+  }, "\uB300\uAD6C \uAD11\uC5ED\uC2DC \uC601\uC9C4 \uACE0\uB4F1\uD559\uAD50\uB97C \uB300\uC0C1\uC73C\uB85C\uD55C \uD559\uAD50 \uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC\uC785\uB2C8\uB2E4."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    style: {
+      color: "",
+      fontWeight: "bold"
+    }
+  }, "\uC124\uBB38\uC870\uC0AC \uC9C4\uCC99\uACB0\uACFC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "progress",
     style: {
-      backgroundColor: "black"
+      backgroundColor: "rgb(0, 182, 255, 0.3)"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "progress-bar",
@@ -110627,7 +110664,162 @@ __webpack_require__.r(__webpack_exports__);
       width: "64%"
     },
     role: "progressbar"
-  }, "64%"))))))))));
+  }, "64%   (64/100\uBA85)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-8",
+    style: {
+      color: "black",
+      fontWeight: "bold"
+    }
+  }, "\uD310\uB9E4\uAC00"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4 text-right"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "95000 Coin")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-xl-3 col-lg-3 col-md-3",
+    style: {
+      borderRadius: "20px",
+      boxShadow: "6px 6px 6px 6px rgba(0, 0, 0, .2)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "market_survey_image"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header",
+    style: {
+      margin: 0,
+      padding: 0
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      margin: 0,
+      padding: 0,
+      marginTop: "15px",
+      fontSize: "20px",
+      fontWeight: "bold",
+      color: "black",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap"
+    }
+  }, "\uC601\uC9C4 \uACE0\uB4F1\uD559\uAD50 \uD559\uAD50\uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      fontSize: "14px",
+      fontWeight: "bold",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap"
+    }
+  }, "\uB300\uAD6C \uAD11\uC5ED\uC2DC \uC601\uC9C4 \uACE0\uB4F1\uD559\uAD50\uB97C \uB300\uC0C1\uC73C\uB85C\uD55C \uD559\uAD50 \uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC\uC785\uB2C8\uB2E4."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    style: {
+      color: "",
+      fontWeight: "bold"
+    }
+  }, "\uC124\uBB38\uC870\uC0AC \uC9C4\uCC99\uB3C4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress",
+    style: {
+      backgroundColor: "rgb(0, 182, 255, 0.3)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress-bar",
+    style: {
+      width: "80%"
+    },
+    role: "progressbar"
+  }, "80%   (80/100\uBA85)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-8",
+    style: {
+      color: "black",
+      fontWeight: "bold"
+    }
+  }, "\uD310\uB9E4\uAC00"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4 text-right"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "148000 coin")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-xl-3 col-lg-3 col-md-3",
+    style: {
+      borderRadius: "20px",
+      boxShadow: "6px 6px 6px 6px rgba(0, 0, 0, .2)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "market_survey_image"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card-header",
+    style: {
+      margin: 0,
+      padding: 0
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      margin: 0,
+      padding: 0,
+      marginTop: "15px",
+      fontSize: "20px",
+      fontWeight: "bold",
+      color: "black",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap"
+    }
+  }, "\uC601\uC9C4 \uACE0\uB4F1\uD559\uAD50 \uD559\uAD50\uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: {
+      fontSize: "14px",
+      fontWeight: "bold",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      whiteSpace: "nowrap"
+    }
+  }, "\uB300\uAD6C \uAD11\uC5ED\uC2DC \uC601\uC9C4 \uACE0\uB4F1\uD559\uAD50\uB97C \uB300\uC0C1\uC73C\uB85C\uD55C \uD559\uAD50 \uD3ED\uB825 \uC2E4\uD0DC\uC870\uC0AC\uC785\uB2C8\uB2E4."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    style: {
+      color: "",
+      fontWeight: "bold"
+    }
+  }, "\uC124\uBB38\uC870\uC0AC \uC9C4\uCC99\uB3C4"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress",
+    style: {
+      backgroundColor: "rgb(0, 182, 255, 0.3)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "progress-bar",
+    style: {
+      width: "100%"
+    },
+    role: "progressbar"
+  }, "100%   (150/150\uBA85)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-8",
+    style: {
+      color: "black",
+      fontWeight: "bold"
+    }
+  }, "\uD310\uB9E4\uAC00"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-4 text-right"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "240000 Coin")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-lg-1 col-md-1 col-sm-1"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row",
+    style: {
+      marginTop: "30px"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    "class": "col-sm-12 col-lg-12 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    "class": "btn btn-primary",
+    href: "/market?page=1",
+    style: {
+      marginLeft: "10px"
+    }
+  }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    "class": "btn btn-primary",
+    href: "/market?page=2",
+    style: {
+      marginLeft: "10px"
+    }
+  }, "2"))));
 });
 
 /***/ }),
