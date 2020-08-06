@@ -7,7 +7,7 @@ export default () => {
     return(
         <div>
             <div className="service_image text-center">
-                <p style={{color:"white", fontSize:"88px", paddingTop:"150px", fontWeight:"bold"}}>
+                <p style={{color:"white", textShadow:"black 12px 0px 3px",fontSize:"88px", paddingTop:"150px", fontWeight:"bold"}}>
                     Service
                 </p>
 
@@ -16,14 +16,14 @@ export default () => {
             <div className="row justify-content-around" style={{backgroundColor:"white"}}>
                 <div className="col-lg-8 col-md-8 col-sm-8 text-center">
                     {/*  */}
-                    <div className="row" style={{marginBottom:"50px", marginTop:"50px"}}>
+                    <div className="row justify-content-around" style={{marginBottom:"50px", marginTop:"50px"}}>
                         {/* <div className="col-lg-12 col-md-12 col-sm-12">
                             <p style={{fontSize:"32px", fontWeight:"bold",marginTop:"30px"}}>
                                 Use Services
                             </p>
                             <h3 style={{color: "green"}}>──────</h3>
                         </div> */}
-                        <div className="col-xl-6 col-lg-6 col-md-6">
+                        <div className="col-xl-5 col-lg-5 col-md-5" style={{borderRadius:"20px",boxShadow:"6px 6px 6px 6px rgba(0, 0, 0, .2)"}}>
                             <Link to ="/service/create/survey">
                                 <div className="card-body">
                                     <div className="survey_create_image text-center"/>
@@ -36,7 +36,7 @@ export default () => {
                             </Link>
                         </div>
 
-                        <div className="col-xl-6 col-lg-6 col-md-6">
+                        <div className="col-xl-5 col-lg-5 col-md-5" style={{borderRadius:"20px",boxShadow:"6px 6px 6px 6px rgba(0, 0, 0, .2)"}}>
                             <Link to ="/service/response">
                                 <div className="card-body">
                                     <div className="survey_see_image text-center"/>

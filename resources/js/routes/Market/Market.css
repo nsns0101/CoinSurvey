@@ -1,21 +1,42 @@
 .market_image {
     width: 100%;
     height: 30vh;
-    background: url("/img/header-bg.jpg") center center no-repeat;
+    background: url("/img/market_main.jpg") center center no-repeat;
     text-align: center;
     /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */
     background-size: cover;
+    /* filter: blur(1px); */
+  /* -webkit-filter: blur(8px) */
 }
-
-.market_survey_image {
+/* 설문조사 1 */
+.violence_survey_image {
     width: 100%;
     height: 20vh;
     border-radius: 10px;
-    background: url("/img/survey_create.jpg") center center no-repeat;
+    background: url("/img/violence_image1.jpg") center center no-repeat;
     /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */
     background-size: cover;
 }
 
+/* 설문조사 2 */
+.student_survey_image {
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    background: url("/img/student_survey1.jpg") center center no-repeat;
+    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */
+    background-size: cover;
+}
+
+/* 설문조사 3 */
+.sms_survey_image {
+    width: 100%;
+    height: 20vh;
+    border-radius: 10px;
+    background: url("/img/sms_survey.jpg") center center no-repeat;
+    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */
+    background-size: cover;
+}
 .progress > .progress-type {
 	position: absolute;
 	left: 0px;

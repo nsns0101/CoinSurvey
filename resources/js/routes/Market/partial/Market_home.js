@@ -12,7 +12,7 @@ export default () => {
         <div>
             {/* 백그라운드 이미지 */}
             <div className="market_image">
-                <p style={{color:"white", fontSize:"88px", paddingTop:"150px", fontWeight:"bold"}}>
+                <p style={{color:"white", textShadow:"black 12px 0px 3px",fontSize:"88px", paddingTop:"150px", fontWeight:"bold"}}>
                     Market
                 </p>
             </div>
@@ -32,7 +32,7 @@ export default () => {
                         <div className="col-xl-3 col-lg-3 col-md-3" style={{borderRadius:"20px",boxShadow:"6px 6px 6px 6px rgba(0, 0, 0, .2)"}}>
                             {/* <Link to ="/service/create/survey"> */}
                                 <div className="card-body">
-                                    <div className="market_survey_image"/>
+                                    <div className="violence_survey_image"/>
                                     <div className="card-header" style={{margin:0, padding:0}}>
                                         <p style={{margin:0, padding:0, marginTop:"15px",fontSize:"20px", fontWeight:"bold", color:"black", overflow:"hidden", textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
                                             영진 고등학교 학교폭력 실태조사
@@ -69,13 +69,13 @@ export default () => {
                         <div className="col-xl-3 col-lg-3 col-md-3" style={{borderRadius:"20px",boxShadow:"6px 6px 6px 6px rgba(0, 0, 0, .2)"}}>
                             {/* <Link to ="/service/create/survey"> */}
                                 <div className="card-body">
-                                    <div className="market_survey_image"/>
+                                    <div className="student_survey_image"/>
                                     <div className="card-header" style={{margin:0, padding:0}}>
                                         <p style={{margin:0, padding:0, marginTop:"15px",fontSize:"20px", fontWeight:"bold", color:"black", overflow:"hidden", textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
-                                            영진 고등학교 학교폭력 실태조사
+                                            고산 초등학교 학생 장래희망 조사
                                         </p>
                                         <p style={{fontSize:"14px", fontWeight:"bold", overflow:"hidden", textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
-                                            대구 광역시 영진 고등학교를 대상으로한 학교 폭력 실태조사입니다.
+                                            대구 광역시 영진 전문대학교를 대상으로한 학생들의 관심도 조사입니다.
                                         </p>
                                         {/* 설문조사 진척도 */}
                                         <div>
@@ -94,7 +94,7 @@ export default () => {
                                                 판매가
                                             </div>
                                             <div className="col-md-4 text-right">
-                                                <p>148000 coin</p>
+                                                <p>148000 Coin</p>
                                             </div>
                                         </div>
                                     </div>
@@ -106,13 +106,13 @@ export default () => {
                         <div className="col-xl-3 col-lg-3 col-md-3" style={{borderRadius:"20px",boxShadow:"6px 6px 6px 6px rgba(0, 0, 0, .2)"}}>
                             {/* <Link to ="/service/create/survey"> */}
                                 <div className="card-body">
-                                    <div className="market_survey_image"/>
+                                    <div className="sms_survey_image"/>
                                     <div className="card-header" style={{margin:0, padding:0}}>
                                         <p style={{margin:0, padding:0, marginTop:"15px",fontSize:"20px", fontWeight:"bold", color:"black", overflow:"hidden", textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
-                                            영진 고등학교 학교폭력 실태조사
+                                            서울 특별시 SMS 조사
                                         </p>
                                         <p style={{fontSize:"14px", fontWeight:"bold", overflow:"hidden", textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
-                                            대구 광역시 영진 고등학교를 대상으로한 학교 폭력 실태조사입니다.
+                                            서울 특별시 전체를 대상으로 실시한 SMS 관심도 조사입니다.
                                         </p>
                                         {/* 설문조사 진척도 */}
                                         <div>
