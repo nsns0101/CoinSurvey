@@ -1,5 +1,4 @@
 import React, { useState, createContext } from "react";
-import { Link } from "react-router-dom";
 
 import MarketView from "./MarketView.js";
 
