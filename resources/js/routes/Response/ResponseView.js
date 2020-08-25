@@ -2,6 +2,13 @@ import React, {useState, useContext} from "react";
 
 export default () => {
     return (
-        <div></div>
+        <div>
+            {/* 백그라운드 이미지 */}
+            <div className="response_image">
+                <p style={{color:"white", textShadow:"black 12px 0px 3px",fontSize:"88px", paddingTop:"150px", fontWeight:"bold"}}>
+                    Response
+                </p>
+            </div>
+        </div>
     )
 }
