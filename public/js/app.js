@@ -7678,7 +7678,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".response_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/market_main.jpg\") center center no-repeat;\r\n    text-align: center;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n    /* filter: blur(1px); */\r\n  /* -webkit-filter: blur(8px) */\r\n}", ""]);
+exports.push([module.i, ".response_image {\r\n    width: 100%;\r\n    height: 30vh;\r\n    background: url(\"/img/response_main.jpg\") center center no-repeat;\r\n    text-align: center;\r\n    /* background: linear-gradient(45deg, #002ef0 0%, rgba(116, 15, 214, 0.9) 100%), url(/images/hero-bg.jpg) center center no-repeat; */\r\n    background-size: cover;\r\n    /* filter: blur(1px); */\r\n  /* -webkit-filter: blur(8px) */\r\n    margin-bottom: 30px;\r\n}\r\n\r\n\r\n.response_help_p {\r\n  margin-bottom: 30px;\r\n  font-size: 24px;\r\n  color: black;\r\n  font-weight: 600;\r\n}\r\n\r\n.response_help_p span {\r\n  color: red;\r\n}\r\n\r\n.pin_img {\r\n  width: 30px;\r\n  height: 30px;\r\n}", ""]);
 
 // exports
 
@@ -110824,15 +110824,15 @@ __webpack_require__.r(__webpack_exports__);
       marginTop: "30px"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "col-sm-12 col-lg-12 text-center"
+    className: "col-sm-12 col-lg-12 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "btn btn-primary",
+    className: "btn btn-primary",
     href: "/market?page=1",
     style: {
       marginLeft: "10px"
     }
   }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    "class": "btn btn-primary",
+    className: "btn btn-primary",
     href: "/market?page=2",
     style: {
       marginLeft: "10px"
@@ -110909,7 +110909,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Response_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Response.css */ "./resources/js/routes/Response/Response.css");
 /* harmony import */ var _Response_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Response_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _partial_Response_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./partial/Response_home */ "./resources/js/routes/Response/partial/Response_home.js");
 
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partial_Response_home__WEBPACK_IMPORTED_MODULE_2__["default"], null);
+});
+
+/***/ }),
+
+/***/ "./resources/js/routes/Response/partial/Response_home.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/routes/Response/partial/Response_home.js ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -110922,7 +110942,33 @@ __webpack_require__.r(__webpack_exports__);
       paddingTop: "150px",
       fontWeight: "bold"
     }
-  }, "Response")));
+  }, "Response")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "pin_img",
+    src: "/icon/response/pin1.png"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "response_help_p"
+  }, "\uD604\uC7AC ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "5\uAC1C"), "\uC758 \uC124\uBB38\uC870\uC0AC\uAC00 \uC9C4\uD589\uC911\uC785\uB2C8\uB2E4.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row justify-content-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-xl-10 col-lg-10 col-md-10",
+    style: {
+      borderRadius: "20px",
+      boxShadow: "6px 6px 6px 6px rgba(0, 0, 0, .2)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-9 text-center"
+  }, "good"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col-md-3",
+    style: {
+      borderLeft: "1px solid black"
+    }
+  }, "good good good")))));
 });
 
 /***/ }),

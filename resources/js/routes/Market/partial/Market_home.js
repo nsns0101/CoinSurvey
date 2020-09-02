@@ -145,9 +145,9 @@ export default () => {
             </div>
             {/* 페이지 넘기기 */}
             <div className="row" style={{marginTop:"30px"}}>
-                <div class="col-sm-12 col-lg-12 text-center">
-                    <a class="btn btn-primary" href="/market?page=1" style={{marginLeft:"10px"}}>1</a>
-                    <a class="btn btn-primary" href="/market?page=2" style={{marginLeft:"10px"}}>2</a>
+                <div className="col-sm-12 col-lg-12 text-center">
+                    <a className="btn btn-primary" href="/market?page=1" style={{marginLeft:"10px"}}>1</a>
+                    <a className="btn btn-primary" href="/market?page=2" style={{marginLeft:"10px"}}>2</a>
                 </div>
             </div>
         </div>
